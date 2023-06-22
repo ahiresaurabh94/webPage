@@ -1,0 +1,253 @@
+.main,
+.blakbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.667);
+    z-index: 1;
+}
+
+.box {
+    position: absolute;
+    width: 736px;
+    height: 513px;
+    left: 25%;
+    top: 20%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.r-heading {
+    position: absolute;
+    width: 736px;
+    height: 50px;
+    text-align: center;
+    background: #EFFFF4;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.r-headText {
+    position: absolute;
+    width: 619px;
+    height: 16px;
+    left: 59px;
+    top: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #008A45;
+
+}
+
+.r-create {
+    position: absolute;
+    width: 173px;
+    height: 31px;
+    left: 36px;
+    top: 74px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+.r-already {
+    position: absolute;
+    width: 195px;
+    height: 17px;
+    left: 505px;
+    top: 81px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+
+    color: #3D3D3D;
+}
+
+.r-sideImage {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 380px;
+    top: 129px;
+}
+
+.r-sideImage img {
+    position: absolute;
+    left: 9.63%;
+    right: 9.7%;
+    top: 6.37%;
+    bottom: 12.11%;
+}
+
+.r-policy {
+    position: absolute;
+    width: 317px;
+    height: 16px;
+    left: 383px;
+    top: 461px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: -0.008em;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.inp1{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 46px;
+    left: 36px;
+    top: 129px;
+    background: #F7F8FA;
+    /* border: 1px solid #D9D9DB; */
+    border-radius: 2px 2px 0px 0px;
+}
+
+#first{
+    padding-left: 10px;
+    border: 1px solid #D9D9DB;
+    width: 50%;
+}
+
+#last{
+    padding-left: 10px;
+    border: 1px solid #D9D9DB;
+}
+
+.r-email input {
+    box-sizing: border-box;
+    padding-left: 10px;
+    position: absolute;
+    width: 320px;
+    height: 46px;
+    left: 36px;
+    top: 174px;
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+}
+
+.r-password input {
+    box-sizing: border-box;
+    padding-left: 10px;
+
+    position: absolute;
+    width: 320px;
+    height: 46px;
+    left: 36px;
+    top: 219px;
+
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+}
+
+.r-confirm input {
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 46px;
+    left: 36px;
+    top: 264px;
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.r-confirm img{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 320px;
+top: 233px;
+}
+
+.r-button {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 36px;
+    top: 329px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    background: #2F6CE5;
+    border-radius: 20px;
+}
+
+.signup {
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 38px;
+    left: 36px;
+    top: 393px;
+    background: #FFFFFF;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+}
+
+.signup img {
+
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 77px;
+    top: 11px;
+}
+
+.signup div {
+    position: absolute;
+    width: 141px;
+    height: 16px;
+    left: 103px;
+    top: 11px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.signup1 {
+    top: 439px;
+}
+
+.signup1 img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 85px;
+    top: 11px;
+}
+
+.signup1 div {
+    position: absolute;
+    width: 125px;
+    height: 16px;
+    left: 111px;
+    top: 11px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    color: #000000;
+}
+
+.r-cancel {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 1105px;
+    top: 106px;
+}
