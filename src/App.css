@@ -1,6 +1,6 @@
 .h-main {
   position: absolute;
-  width: 100%;
+  width: 1440px;
   height: 72px;
   left: 0px;
   top: 0px;
@@ -128,15 +128,18 @@
   font-style: normal;
 }
 
-.image-content {
+.image-content{
   position: absolute;
   width: 100%;
   height: 440px;
   left: 0px;
   top: 72px;
-  background: url("../public/icons/image.png");
-
 }
+
+/* .image-content img{
+  position: absolute;
+  width: 100%;
+} */
 
 .i-div1 {
   position: absolute;

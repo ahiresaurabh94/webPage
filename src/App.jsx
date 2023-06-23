@@ -5,13 +5,13 @@ import Register from "./components/register/register";
 function App() {
   const [registerState, setRegisterState] = useState(false);
 
-  function handleRegister(){
+  function handleRegister() {
     setRegisterState(!registerState);
   }
   return (
-    
+
     <div className="main-content">
-      {registerState ? <Register value={registerState} getData={setRegisterState}/> : <></>}
+      {registerState ? <Register value={registerState} getData={setRegisterState} /> : <></>}
 
       <div className="h-main">
 
@@ -38,6 +38,7 @@ function App() {
       </div>
 
       <div className="image-content">
+        <img src="/icons/image.png" alt="back" />
         <div className="i-div1">Computer Engineering</div>
         <div className="i-para1">142,765 Computer Engineers follow this</div>
       </div>

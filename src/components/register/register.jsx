@@ -5,7 +5,8 @@ const Register = (props) => {
     const data = props.value;
 
     return (
-        <div className="main">
+        <div className="main">  
+
             <div className="blackBox"></div>
             <div className="r-cancel" onClick={()=>{props.getData(!data)}}>
                 <img src="/icons/cancel.png" alt="" />
